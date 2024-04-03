@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@android:color/darker_gray">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/textnamabarangDipinjam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@+id/text_namabarangDipinjam"
+            android:text="Nama Barang : "/>
+        <TextView
+            android:id="@+id/text_namabarangDipinjam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="Nama Barang"
+            app:layout_constraintStart_toStartOf="@+id/textnamabarangDipinjam"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textnamaDipinjam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textnamabarangDipinjam"
+            app:layout_constraintEnd_toStartOf="@+id/text_namaDipinjam"
+            android:text="Nama Peminjam : "/>
+
+        <TextView
+            android:id="@+id/text_namaDipinjam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="Nama Peminjam"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@+id/textnamaDipinjam"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/texttlpnDipinjam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textnamaDipinjam"
+            app:layout_constraintEnd_toStartOf="@+id/text_namatelponDipinjam"
+            android:text="Telepon : "/>
+
+        <TextView
+            android:id="@+id/text_namatelponDipinjam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/texttlpnDipinjam"
+            app:layout_constraintTop_toBottomOf="@id/text_namaDipinjam"
+            tools:ignore="MissingConstraints"
+            tools:text="tlpn" />
+
+        <TextView
+            android:id="@+id/textjmlbarangDipinjam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/texttlpnDipinjam"
+            app:layout_constraintEnd_toStartOf="@+id/text_jmlbarangDipinjam"
+            android:text="Jumlah Barang : "/>
+
+        <TextView
+            android:id="@+id/text_jmlbarangDipinjam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/textjmlbarangDipinjam"
+            app:layout_constraintTop_toBottomOf="@id/text_namatelponDipinjam"
+            tools:ignore="MissingConstraints"
+            tools:text="Jumlah Barang" />
+
+        <TextView
+            android:id="@+id/texttglbarangDipinjam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textjmlbarangDipinjam"
+            app:layout_constraintEnd_toStartOf="@+id/text_tglbarangDipinjam"
+            android:text="Tgl Pinjam : "/>
+
+        <TextView
+            android:id="@+id/text_tglbarangDipinjam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/texttglbarangDipinjam"
+            app:layout_constraintTop_toBottomOf="@id/text_jmlbarangDipinjam"
+            tools:ignore="MissingConstraints"
+            tools:text="Tanggal Pinjam" />
+
+        <TextView
+            android:id="@+id/texttglbarangkembali"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/texttglbarangDipinjam"
+            app:layout_constraintEnd_toStartOf="@+id/text_tglbarangkembali"
+            android:text="Tgl Kembali : "/>
+
+        <TextView
+            android:id="@+id/text_tglbarangkembali"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/texttglbarangkembali"
+            app:layout_constraintTop_toBottomOf="@id/text_tglbarangDipinjam"
+            tools:ignore="MissingConstraints"
+            tools:text="Tanggal Kembali" />
+        <TextView
+            android:id="@+id/textid_barang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/texttglbarangkembali"
+            app:layout_constraintEnd_toStartOf="@+id/text_id_barang"
+            android:text="id barang : "/>
+        <TextView
+            android:id="@+id/text_id_barang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/textid_barang"
+            app:layout_constraintTop_toBottomOf="@id/text_tglbarangkembali"
+            tools:ignore="MissingConstraints"
+            tools:text="id_barang" />
+
+        <TextView
+            android:id="@+id/textid_user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textid_barang"
+            app:layout_constraintEnd_toStartOf="@+id/text_id_user"
+            android:text="id user : "/>
+        <TextView
+            android:id="@+id/text_id_user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/textid_user"
+            app:layout_constraintTop_toBottomOf="@id/text_id_barang"
+            tools:ignore="MissingConstraints"
+            tools:text="id user : " />
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Sedang Dipinjam"
+            android:backgroundTint="#1DE9B6"
+            app:layout_constraintTop_toBottomOf="@id/text_id_user"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

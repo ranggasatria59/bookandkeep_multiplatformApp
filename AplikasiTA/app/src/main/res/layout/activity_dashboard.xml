@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#045DA5"
+    tools:context=".DashboardActivity">
+
+    <Button
+        android:id="@+id/permintaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="Permintaan Peminjaman"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/barangpinjam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        app:layout_constraintTop_toBottomOf="@+id/permintaan"
+        android:text="Barang Dipinjam"
+        tools:layout_editor_absoluteX="-16dp"/>
+
+    <Button
+        android:id="@+id/barangpengembalian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        app:layout_constraintTop_toBottomOf="@+id/barangpinjam"
+        android:text="Konfirmasi Barang Kembali"
+        tools:layout_editor_absoluteX="-16dp"/>
+
+    <Button
+        android:id="@+id/list_transaksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        app:layout_constraintTop_toBottomOf="@+id/barangpengembalian"
+        android:text="List Transaksi"
+        tools:layout_editor_absoluteX="-16dp"/>
+
+    <Button
+        android:id="@+id/databarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="data barang"
+        app:layout_constraintTop_toBottomOf="@+id/list_transaksi"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

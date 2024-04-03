@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AplikasiTA/app/src/main/res/drawable/barang_pinjam.xml" value="0.22037037037037038" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/drawable/logo.xml" value="0.16944444444444445" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_barang_dipinjam_adapter.xml" value="0.209375" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_barang_list.xml" value="0.209375" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_barang_pinjam.xml" value="0.22" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_create.xml" value="0.33" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_dashboard.xml" value="0.209375" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_edit_barang.xml" value="0.209375" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_manage_barang.xml" value="0.209375" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_menu.xml" value="0.18" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_pemberitahuan_adapter.xml" value="0.33" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_permintaan.xml" value="0.25" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_permintaan_kembali.xml" value="0.209375" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_splash.xml" value="0.209375" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_take.xml" value="0.209375" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_tampilpemberitahuan.xml" value="0.209375" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_transaksi.xml" value="0.20092592592592592" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/activity_username.xml" value="0.209375" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/adapter_barang.xml" value="0.25" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/adapter_barang_dipinjam.xml" value="0.22" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/adapter_barang_kembali.xml" value="0.209375" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/adapter_pinjam.xml" value="0.25" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/adapter_transaksi_selesai.xml" value="0.2" />
+        <entry key="..\:/AplikasiTA/app/src/main/res/layout/barang_list.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
